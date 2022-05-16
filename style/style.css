@@ -1,0 +1,46 @@
+body {
+  background: grey 
+}
+
+.button {
+  position: auto;
+  left: 90%;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+table, div {
+  table-layout: fixed;
+  width: 50%; /* Ширина таблицы */
+  background: white; /* Цвет фона таблицы */
+  color: #e53e3e; /* Цвет текста */
+  border-spacing: 1px; /* Расстояние между ячейками */
+}
+ 
+td, th, div {
+  background: #000000; /* Цвет фона ячеек */
+  padding: 5px; /* Поля вокруг текста */
+}
+
+h1 {
+      background: black;
+      color: blue;
+      border-radius: 1em;
+      padding: 1em;
+}
+
+h5 {
+    background: black;
+    color: #cbfc08; /* Yellow */
+    border-radius: 1em;
+    padding: 1em;
+}
